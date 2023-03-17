@@ -12,6 +12,7 @@
         <li><a href="#clonerepo">Clone the repository</a></li>
       </ul>
     </li>
+    <li><a href="#usage">Usage</a></li>
   </ol>
 </details>
 
@@ -62,12 +63,13 @@ Then, follow this guideline:
   
 ### Clone the repository
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
+Now, you are ready to clone this repository and start building the image exposing Rstudio server on 8787 port
 1. Clone the repo
-   ```sh
-   git clone https://github.com/AMCalejandro/rstudiodocker.git
-   ```
+
+
+```sh
+git clone https://github.com/AMCalejandro/rstudiodocker.git
+```
 
 
 <!-- USAGE EXAMPLES -->
@@ -83,7 +85,7 @@ Make sure that you add the installation in the Dockerfile file
 Make sure you are on located the repository you just cloned
 
 ```sh
-docker build -t <yourdockerimagename> -f .
+docker build -t <yourdockerimagename> .
 ```
 
 3. Run the container.  
